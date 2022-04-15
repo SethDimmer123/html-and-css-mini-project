@@ -231,6 +231,15 @@ footer{
 }
 
 .footer__logo{
-max-width:3600px;
+max-width:360px;
+}
+
+.footer__link{
+padding:0 4px;
+font-size:18px;
+}
+
+.footer__links{
+margin-bottom:24px;
 }
 }
