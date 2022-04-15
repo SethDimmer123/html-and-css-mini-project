@@ -225,4 +225,12 @@ flex-direction:column;
 #discord .section__description{
     flex-direction:column-reverse;
 }
+
+footer{
+    padding:48px 24px;
+}
+
+.footer__logo{
+max-width:3600px;
+}
 }
