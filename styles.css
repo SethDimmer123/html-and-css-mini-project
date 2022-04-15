@@ -70,11 +70,14 @@ li {
   justify-content: center;
 }
 
-/*About*/
+/*
 
-#about {
+ABOUT
+
+*/
+#about {  
+    background-color: #f8ffdc;
     padding: 48px 0;
-  background-color: #f8ffdc;
 }
 
 h2 {
@@ -90,7 +93,7 @@ h2 {
 }
 
 .about__img--wrapper {
-  width: 40%;
+  width: 60%;
   padding: 0 24px;
 }
 
@@ -107,4 +110,61 @@ img {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord{
+    background-color: #cefeff;
+    padding: 48px 0;
+    }
+
+/*
+
+CONTACT
+
+*/
+
+#contact{
+    background-color:#dce9ff ;
+    padding: 48px 0;
+ 
+}
+
+form{
+    width:100%;
+    max-width:600px;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+
+input,textarea{
+    margin-bottom:24px;
+    font-size:20px;
+    padding:6px 12px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+
+.footer__logo{
+max-width:480px
+
 }

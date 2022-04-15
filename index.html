@@ -57,71 +57,53 @@
               placeat ut esse ad!
             </p>
           </div>
-          <figure>
+          <figure class="about__img--wrapper">
             <img src="assets/about.jpg" />
           </figure>
         </div>
       </section>
-      <section>
+      
+      <section id="discord">
         <h2>Discord</h2>
-        <div>
-          <p>
+        <div class="section__description">
+        <figure class="about__img--wrapper">
+            <img src="./assets/discord.png">
+        </figure>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             optio aperiam quaerat ducimus accusantium qui quasi, sed dolorum
             enim iure hic ut libero cumque possimus repellendus ipsa illo iste
             itaque?
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
             cumque corrupti, quasi vitae cum dignissimos voluptate molestias
-            earum iusto nihil rem ducimus. Recusandae explicabo neque sint,
-            natus optio dolorem praesentium.
+            earum iusto nihil rem ducimus. Recusandae explicabo neque
           </p>
-        </div>
-        <figure class="about__img--wrapper">
-          <img src="assets/discord.png" />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              consectetur molestias, exercitationem provident dicta inventore
-              laboriosam eos asperiores excepturi reprehenderit facilis
-              architecto et deserunt eius minus eligendi, neque, perferendis
-              quidem.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic
-              amet veniam corporis perferendis deserunt quod. Porro aliquid
-              temporibus blanditiis inventore, quidem harum, id, exercitationem
-              veritatis nisi dolor officia necessitatibus.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-              recusandae assumenda magni. Voluptatibus magnam error accusamus
-              voluptatem soluta quas ut sit quae, exercitationem enim, harum
-              temporibus dolor aspernatur velit obcaecati!
-            </p>
           </div>
-        </figure>
+        </div>
       </section>
-      <section>
+      
+      <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <label>Email</label>
           <input type="text" placeholder="jane@example.com" />
           <label>Message</label>
-          <textarea type="text" placeholder="jane@example.com"></textarea>
+          <textarea type="text" placeholder="Cool website let's get connected"></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
+    
     <footer>
-      <img src="assets/FES.svg" />
-      <div>
-        <ul>
-          <li>About</li>
-          <li>Discord</li>
-          <li>Contact</li>
-          <li>Courses</li>
-        </ul>
+      <img class="footer__logo" src="assets/FES.svg" />
+      <div class="footer__links">
+          <a class="footer__link" href="#about">About</a>
+          <a class="footer__link" href="#discord">Discord</a>
+          <a class="footer__link" href="#contact">Contact</a>
+          <a class="footer__link" href="">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
