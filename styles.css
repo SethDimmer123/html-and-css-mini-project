@@ -251,13 +251,22 @@ LARGE SMARTPHONES
     padding-top:30px;
   }
 
-  .footer__logo{
-    margin-top:10%;
+  .footer__links{
+    display:flex;
+  }
+
+  .footer__link{
+    padding:0 4px;
+    font-size:90%
   }
 
   .button__footer{
     margin-bottom:10%;
   }
+
+
+
+
 }
 
 
